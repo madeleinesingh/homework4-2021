@@ -119,6 +119,6 @@ footer{
   color: #FFFFFF;
   min-height: 75px;
   width: auto;
-  padding-bottom: 0px;
+  position: fixed;
 }
 
