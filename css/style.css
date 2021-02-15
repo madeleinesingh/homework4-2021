@@ -52,7 +52,7 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration: underline wavy;
   /*Req 4*/
 }
@@ -66,6 +66,7 @@ a{
 /*Req 6a*/
 td{
   text-align: center;
+  vertical-align: middle;
   border-top: 2px solid black;
   padding: 10px;
 }
@@ -74,8 +75,9 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125 px;
+  height: auto;
   padding: 10px;
-  text-align: center;
+  vertical-align: middle;
   text-transform: uppercase;
   background-color: #7e0820;
 }
@@ -84,6 +86,7 @@ td{
 .rowhead{
   border-right: 2px solid black;
   border-top: 2px solid black;
+  vertical-align: middle;
 }
 
 /*Req 6d*/
